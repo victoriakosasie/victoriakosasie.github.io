@@ -156,6 +156,12 @@ div.artworks{
     opacity: 1;
 }
 
+/* CV */
+div.cv{
+    height: 470px;
+    width: 700px;
+    overflow-y: scroll
+}
 
 /* FOOTER */
 footer {

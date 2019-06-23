@@ -9,7 +9,7 @@ header {
     width: 100%;
     margin-top: 2%; 
     margin-bottom: 3.5%;
-    font-family: 'Nunito Sans', sans-serif ;
+    font-family: 'Avenir Medium', sans-serif ;
 }
 
 
@@ -56,7 +56,19 @@ header {
 
 /* FONTS, GENERAL IMG FORMATTING */ 
  body {
-    font-family: 'Nunito Sans', sans-serif ;
+    font-family: 'Avenir Medium', sans-serif ;
+    font-size: 14px;
+    color: rgb(129, 129, 129)
+}
+
+b {
+    color:rgb(82, 82, 82)
+}
+
+body h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: black
 }
 
  body h6 {
@@ -68,6 +80,8 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto
     width: 100%;
 }
 
@@ -158,8 +172,7 @@ div.artworks{
 
 /* CV */
 div.cv{
-    height: 470px;
-    width: 700px;
+    height: 450px;
     overflow-y: scroll
 }
 
@@ -169,6 +182,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 40px;   /* Height of the footer */
-    font-family: 'Nunito Sans', sans-serif ;
-    font-size: 14px;
+    font-family: 'Avenir Medium', sans-serif ;
+    font-size: 10px;
+    background: white
 }
